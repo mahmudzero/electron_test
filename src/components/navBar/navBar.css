@@ -1,0 +1,30 @@
+.nav-bar-width {
+  background: rgb(45, 42, 46);
+  color: rgb(117, 208, 219);
+  font-style: italic;
+}
+
+.nav-bar {
+  max-width: 1100px;;
+  display: flex;
+  height: 70px;
+  box-sizing: border-box;
+
+  margin: 0 auto 10px auto;
+
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  user-select: none;
+}
+
+@media (max-width: 1100px) {
+  .nav-bar {
+    padding: 0 10px;
+  }
+}
